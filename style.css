@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "halflings";
+    src: url("fonts/glyphicons-halflings-regular.eot") format("eot"),
+         url("fonts/glyphicons-halflings-regular.svg") format("svg"),
+         url("fonts/glyphicons-halflings-regular.ttf") format("ttf"),
+         url("fonts/glyphicons-halflings-regular.woff") format("woff"),
+         url("fonts/glyphicons-halflings-regular.woff2") format("woff2");
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    /* font-family: "halflings"; */
+}
+
+a:hover {
+    text-decoration: none;
+    color: initial;
+}
+
+.welcome {
+    background: url('images/hero-image.jpg');
+    background-position-y: 1450px;
+}
+
+.burger {
+    border: 1px solid #ffffff28;
+    padding: 6px;
+}
+
+.trueBurger {
+    display: none;
+}
+
+.trueBurger > a {
+    color: #9d9d9d;
+    font-weight: bold;
+}
+
+/* .trueBurger > a:nth-child(2) {
+    padding-left: 30px;
+} */
+
+footer {
+    background: url("images/one-million-bottom-brand.png") left 20px bottom 30px no-repeat;
+    background-color: #f74c3c;
+    padding-bottom: 200px;
+}
+
+main h2, h3, .spanColor {
+    color: #f74c3c;
+}
+
+main h1, .titleWeight {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.btnColor {
+    background-color: #d9534f
+}
+
+.btnLight {
+    display: inline-block;
+    border: 1px solid grey;
+    border: 1px solid lightgray;
+    padding: 7px;
+    border-radius: 5px;
+    background: white;
+}
+
+.faIcons {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 30px;
+    background-color: #333;
+    color: #fff;
+    font-size: 25px;
+}
+
+.hrStyle {
+    width: 100px;
+    background-color: #efb5af;
+}
+
+.footerFleche {
+    color: white;
+    position: relative;
+    left: 90%;
+    top: 170px;
+    color: black;
+}
